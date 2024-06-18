@@ -4,7 +4,7 @@ using Il2Cpp;
 using usable_beast_eye;
 using Il2Cppnewbattle_H;
 
-[assembly: MelonInfo(typeof(UsableBeastEye), "Usable Beast Eye", "1.0.0", "Matthiew Purple")]
+[assembly: MelonInfo(typeof(UsableBeastEye), "Usable Beast Eye (cheaper variant)", "1.0.0", "Matthiew Purple")]
 [assembly: MelonGame("アトラス", "smt3hd")]
 
 namespace usable_beast_eye;
@@ -45,7 +45,7 @@ public class UsableBeastEye : MelonMod
         // Replace Radiance with Beast Eye
         tblHearts.fclHeartsTbl[25].Skill[1].ID = 219;
 
-        // Raises Beast Eye's cost to 150 MP
-        datNormalSkill.tbl[219].cost = 150;
+        // Raises Beast Eye's cost to 75 MP
+        datNormalSkill.tbl[219].cost = 75;
     }
 }

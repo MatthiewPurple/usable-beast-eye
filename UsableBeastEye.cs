@@ -1,13 +1,13 @@
 ﻿using MelonLoader;
 using HarmonyLib;
 using Il2Cpp;
-using usable_beast_eye;
+using usable_beast_eye_cheaper_variant;
 using Il2Cppnewbattle_H;
 
 [assembly: MelonInfo(typeof(UsableBeastEye), "Usable Beast Eye (cheaper variant)", "1.0.0", "Matthiew Purple")]
 [assembly: MelonGame("アトラス", "smt3hd")]
 
-namespace usable_beast_eye;
+namespace usable_beast_eye_cheaper_variant;
 public class UsableBeastEye : MelonMod
 {
     // After getting the affinities of a demon
